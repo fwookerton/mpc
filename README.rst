@@ -1,8 +1,8 @@
 mpc
 ===
 
-THIS FORK OF mpc is a command-line client for the `Music Player Daemon THAT DOES NOT CONTAIN THE STUPID WARNING THAT MESSES WITH MY TERMINAL OUTPUTS AND FUCKS EVERYTHING UP
-<http://www.musicpd.org/>`__.
+THIS FORK OF mpc is a command-line client for the `Music Player Daemon` THAT DOES NOT CONTAIN THE STUPID WARNING THAT MESSES WITH MY TERMINAL OUTPUTS AND FUCKS EVERYTHING UP
+`<http://www.musicpd.org/>`__.
 
 
 Installing mpc from source
