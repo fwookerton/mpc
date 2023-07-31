@@ -276,9 +276,6 @@ run(const struct command *command, int argc, char **array)
 {
 	struct mpd_connection *conn = setup_connection();
 
-	if (mpd_connection_cmp_server_version(conn, 0, 21, 0) < 0)
-		fprintf(stderr, "warning: MPD 0.21 required\n");
-
 	/* If a partition was specified, switch to it, unless we're moving
 	   an output.  Not all outputs are visible in a partition, and
 	   moveoutput needs to look up the one to move, so it has to start
